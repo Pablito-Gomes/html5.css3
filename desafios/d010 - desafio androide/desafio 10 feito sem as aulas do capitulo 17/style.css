@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+
+
+
+
+body{
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: justify;
+}
+
+
+header{
+    color: white;
+    background-image: linear-gradient(to bottom, #439A68, #074522);
+    padding: 10px;
+}
+
+header > h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header > p{
+    text-align: center;
+    
+    margin: auto;
+    padding: 10px;
+}
+
+nav > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin: 0px 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.378);
+}
+
+
+
+/* Separação de corpo */
+
+
+
+main{
+    margin: 0px 300px 10px 300PX;
+    
+    background-color: white;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > h1{
+    font: normal bolder 2em 'android';
+    color: #153524;
+    padding: 10px 30px;
+    margin-top: 0px;
+}
+
+main #texto-1{
+    padding: 0px 30px;
+    text-indent: 50px;
+}
+
+main #h2-1{
+    font: normal bolder 20px 'android';
+    color: #153524;
+    padding: 0px 10px;
+    background-image: linear-gradient( to right, #a7f5cb, #ffffff);
+   
+    margin: 0px 30px;
+}
+
+main #texto-2{
+    padding: 0px 30px;
+    text-indent: 50px; 
+}
+
+main #dandroids{
+    margin: 0px 55px;
+}
+
+main #texto-3{
+    padding: 0px 30px;
+    text-indent: 50px;
+}
+
+main #h2-2{
+    font: normal bolder 20px 'android';
+    color: #153524;
+    padding: 0px 10px;
+    background-image: linear-gradient( to right, #a7f5cb, #ffffff);
+
+    margin: 0px 30px;
+}
+
+main #texto-4{
+    padding: 0px 30px;
+    text-indent: 50px;
+}
+
+main #irina{
+    margin: 0px 55px;
+}
+
+main #texto-5{
+    padding: 0px 30px;
+    text-indent: 50px;
+}
+
+main #android{
+    margin: 0px 10px 0px 300px;
+}
+
+main #texto-6{
+    padding: 0px 30px;
+    text-indent: 50px;
+}
+
+main > iframe{
+    margin: 0px 0px 0px 0px;
+    border: 50px solid green;
+    width: 820px;
+    height: 400px;
+}
+
+main #h2-3{
+    background-color: #308a57;
+    margin: 0px;
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+main > div{
+    background-color: #84E1AD;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main #texto-7{
+    padding: 0px 10px;
+    text-indent: 50px;
+}
+
+li.lista::before{
+    content: ' ✓ '
+}
+
+li.lista{
+    margin: 0px;
+    width: 201px;
+}
+
+ul.lista1{
+    width: 201px;
+}
+
+main #texto-8{
+    padding: 0px 10px;
+    text-indent: 50px;
+}
+
+main #texto-9{
+    padding: 0px 10px;
+    text-indent: 50px;
+}
+
+main #texto-10{
+    padding: 0px 30px;
+    text-indent: 50px;
+    padding: 20px 20px 40px 20px ;
+    
+}
+
+footer{
+    background-color: green;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+footer #texto-11{
+    padding: 0px 10px;
+    text-indent: 50px;
+    display: inline;
+    margin: 0px;
+}
+
+footer #texto-12{
+    padding: 0px 10px;
+    text-indent: 50px;
+    display: inline;
+    font-weight: bold;
+    margin: 0px;
+}
+
+footer #texto-13{
+    padding: 0px 10px;
+    text-indent: 50px;
+    display: inline;
+    font-weight: bold;
+    margin: 0px;
+}
