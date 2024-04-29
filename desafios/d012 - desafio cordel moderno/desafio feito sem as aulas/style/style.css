@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdf5ea;
+    text-align: justify;
+    margin: 0px;
+}
+
+
+
+
+
+header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#ancora{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+#ancora:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#ancora:active{
+    color: rgb(175, 175, 175);
+}
+
+#ancora:hover::before{
+    content: '☛';
+}
+
+#ancora:hover::after{
+    content: '☚';
+}
+
+header > h1{
+    margin-top: 20px;
+    font-size: 3em;
+}
+
+
+
+
+
+
+main{
+    max-width: 800px;
+    background-color: white;
+    margin: auto;
+    
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > p{
+    margin: 0px;
+}
+
+main .div1{
+    max-width: 300px;
+    font-family: cursive;
+    line-height: 2em;
+    font-size: large;
+    font-weight: bold;
+    margin: 0px 5px 50px 5px;
+    padding: 10px;
+}
+
+
+
+#conteiner1{
+   
+    background: white url(../imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+    padding: 0px;
+    margin: 0px 0px 50px 0px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.547) inset;
+
+    position: relative;
+}
+
+main #conteudo1{
+    max-width: 250px;
+    font-family: cursive;
+    line-height: 2em;
+    font-size: large;
+    font-weight: bold;
+    margin: 20px 5px 5px 5px;
+    padding: 10px;
+    background-color:  rgba(0, 0, 0, 0.69);
+    color: white;
+
+    position: absolute;
+
+    transform: translate(10%, 10%);
+}
+
+#conteiner2{
+   
+    background: white url(../imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+    padding: 0px;
+    margin: 0px 0px 50px 0px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.81) inset;
+
+    position: relative;
+}
+
+main #conteudo2{
+    max-width: 250px;
+    font-family: cursive;
+    line-height: 2em;
+    font-size: large;
+    font-weight: bold;
+    margin: 20px 5px 5px 5px;
+    padding: 10px;
+    background-color:  rgba(0, 0, 0, 0.69);
+    color: white;
+
+    position: absolute;
+
+    transform: translate(10%, 10%);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.a1{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.a1:hover{
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(215, 206, 206);
+}
+
+.a1:hover::before{
+    content: '☛';
+}
+
+.a1:hover::after{
+    content: '☚';
+}
