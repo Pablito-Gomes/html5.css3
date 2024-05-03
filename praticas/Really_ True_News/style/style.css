@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root{
+
+    /* Cores */
+    --cor1: #001C55;
+    --cor2: #2196f3;
+    --cor3: #b9e1fc;
+    --cor4: #FE7F2D;
+    --cor5: #FAE800;
+    /* Cores */
+
+    /* Fontes */
+    --fonte1: 'Arial';
+    --fonte2: 'Noticia Text';
+    --fonte3: 'Anton', sans-serif;
+    /* Fontes */
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #001C55, #2196f3);
+    font-family: var(--fonte1);
+   
+    
+    
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.card:hover{
+    height: 450px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+.card .img-box{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 0px;
+    
+}
+
+.card:hover .img-box{
+   top: -70px;
+   scale: 0.75;
+   transition: 0.5s;
+   
+}
+
+.card .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .content{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    padding: 0px 10px;
+    text-align: center;
+    height: 40px;
+    overflow: hidden;
+}
+
+.card:hover .content{
+    top: 150px;
+    height: 250px;
+}
+
+.card .saiba-mais{
+    background:linear-gradient(90deg, var(--cor4), var(--cor5));
+    padding: 10px;
+    color: var(--cor4);
+    text-decoration: none;
+    width: 100px;
+    margin: 10px 10px 10px 50px;
+}
+
+#h1{
+  font-family: var(--fonte2);
+    
+}
