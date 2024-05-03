@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Caption Fixo </title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+       table{
+        border-collapse: collapse;
+        position: relative;
+       }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            width: 200px;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(76, 72, 72);
+        }
+
+        thead, tfoot{
+            background-color: rgb(76, 72, 72);
+            color: white;
+        }
+
+        .num{
+            text-align: right;
+        }
+
+        Caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: rgb(232, 230, 230);
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1> Tabela Grande </h1>
+
+    <table>
+
+        <Caption> Tabela Populacional dos Estados do Brasil </Caption>
+
+        
+        <thead>
+        
+            <th scope="col"> Estado </th>
+            <th scope="col"> População </th>
+
+        </thead>
+
+
+
+        <tbody>
+
+            <tr>
+        
+                <td> São Paulo </td>
+                <td class="num"> 49 295 747 </td>
+        
+            </tr>
+
+            <tr> 
+            
+                <td> Recife </td>
+                <td class="num"> 23 601 254 </td>
+                
+            </tr>
+
+            <tr> 
+                
+                <td> Belo Horizonte </td>
+                <td class="num"> 21 069 799 </td>
+            
+            </tr>
+
+            <tr>
+
+                <td> Fortaleza </td>
+                <td class="num"> 20 109 664 </td>
+
+            </tr>
+
+            <tr>
+
+                <td> Rio de Janeiro </td>
+                <td class="num"> 17 296 239 </td>
+
+            </tr>
+
+        </tbody>
+
+
+
+        <tfoot>
+
+            <th scope="row"> Total </th>
+            <td class="num"> <strong> 131 372 703 </strong> </td>
+
+        </tfoot>
+
+        
+    </table>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam consequuntur corrupti in, magni mollitia culpa nulla qui fugit quidem voluptatem saepe natus? Ipsum doloribus perferendis similique quisquam quae aliquid eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia alias aliquid nesciunt sequi odio consequatur eius, deserunt perspiciatis iusto necessitatibus, assumenda, quisquam aperiam quod minima delectus maiores. Ipsa, culpa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, aliquid! Vitae iste, atque unde, similique reiciendis ut tempora voluptatum eos quis odit repudiandae aperiam! Saepe aliquam assumenda magni et beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. In excepturi dolore, harum perferendis tenetur minus perspiciatis tempora voluptate animi ipsam cumque sequi maxime sunt. Quos voluptatum aliquid magni ex rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consequuntur. Possimus alias provident enim, amet consectetur officia repellendus hic obcaecati cumque nisi quisquam voluptatum quaerat ad, impedit laboriosam maiores inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum corrupti, consequatur modi incidunt vero expedita, perferendis eaque soluta libero tempora totam similique nam ratione esse laboriosam laudantium eveniet illum veniam?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam consequuntur corrupti in, magni mollitia culpa nulla qui fugit quidem voluptatem saepe natus? Ipsum doloribus perferendis similique quisquam quae aliquid eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia alias aliquid nesciunt sequi odio consequatur eius, deserunt perspiciatis iusto necessitatibus, assumenda, quisquam aperiam quod minima delectus maiores. Ipsa, culpa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, aliquid! Vitae iste, atque unde, similique reiciendis ut tempora voluptatum eos quis odit repudiandae aperiam! Saepe aliquam assumenda magni et beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. In excepturi dolore, harum perferendis tenetur minus perspiciatis tempora voluptate animi ipsam cumque sequi maxime sunt. Quos voluptatum aliquid magni ex rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consequuntur. Possimus alias provident enim, amet consectetur officia repellendus hic obcaecati cumque nisi quisquam voluptatum quaerat ad, impedit laboriosam maiores inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum corrupti, consequatur modi incidunt vero expedita, perferendis eaque soluta libero tempora totam similique nam ratione esse laboriosam laudantium eveniet illum veniam?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam consequuntur corrupti in, magni mollitia culpa nulla qui fugit quidem voluptatem saepe natus? Ipsum doloribus perferendis similique quisquam quae aliquid eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia alias aliquid nesciunt sequi odio consequatur eius, deserunt perspiciatis iusto necessitatibus, assumenda, quisquam aperiam quod minima delectus maiores. Ipsa, culpa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, aliquid! Vitae iste, atque unde, similique reiciendis ut tempora voluptatum eos quis odit repudiandae aperiam! Saepe aliquam assumenda magni et beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. In excepturi dolore, harum perferendis tenetur minus perspiciatis tempora voluptate animi ipsam cumque sequi maxime sunt. Quos voluptatum aliquid magni ex rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consequuntur. Possimus alias provident enim, amet consectetur officia repellendus hic obcaecati cumque nisi quisquam voluptatum quaerat ad, impedit laboriosam maiores inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum corrupti, consequatur modi incidunt vero expedita, perferendis eaque soluta libero tempora totam similique nam ratione esse laboriosam laudantium eveniet illum veniam?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam consequuntur corrupti in, magni mollitia culpa nulla qui fugit quidem voluptatem saepe natus? Ipsum doloribus perferendis similique quisquam quae aliquid eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia alias aliquid nesciunt sequi odio consequatur eius, deserunt perspiciatis iusto necessitatibus, assumenda, quisquam aperiam quod minima delectus maiores. Ipsa, culpa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, aliquid! Vitae iste, atque unde, similique reiciendis ut tempora voluptatum eos quis odit repudiandae aperiam! Saepe aliquam assumenda magni et beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. In excepturi dolore, harum perferendis tenetur minus perspiciatis tempora voluptate animi ipsam cumque sequi maxime sunt. Quos voluptatum aliquid magni ex rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consequuntur. Possimus alias provident enim, amet consectetur officia repellendus hic obcaecati cumque nisi quisquam voluptatum quaerat ad, impedit laboriosam maiores inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum corrupti, consequatur modi incidunt vero expedita, perferendis eaque soluta libero tempora totam similique nam ratione esse laboriosam laudantium eveniet illum veniam?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam consequuntur corrupti in, magni mollitia culpa nulla qui fugit quidem voluptatem saepe natus? Ipsum doloribus perferendis similique quisquam quae aliquid eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia alias aliquid nesciunt sequi odio consequatur eius, deserunt perspiciatis iusto necessitatibus, assumenda, quisquam aperiam quod minima delectus maiores. Ipsa, culpa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, aliquid! Vitae iste, atque unde, similique reiciendis ut tempora voluptatum eos quis odit repudiandae aperiam! Saepe aliquam assumenda magni et beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. In excepturi dolore, harum perferendis tenetur minus perspiciatis tempora voluptate animi ipsam cumque sequi maxime sunt. Quos voluptatum aliquid magni ex rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consequuntur. Possimus alias provident enim, amet consectetur officia repellendus hic obcaecati cumque nisi quisquam voluptatum quaerat ad, impedit laboriosam maiores inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum corrupti, consequatur modi incidunt vero expedita, perferendis eaque soluta libero tempora totam similique nam ratione esse laboriosam laudantium eveniet illum veniam?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam consequuntur corrupti in, magni mollitia culpa nulla qui fugit quidem voluptatem saepe natus? Ipsum doloribus perferendis similique quisquam quae aliquid eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia alias aliquid nesciunt sequi odio consequatur eius, deserunt perspiciatis iusto necessitatibus, assumenda, quisquam aperiam quod minima delectus maiores. Ipsa, culpa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, aliquid! Vitae iste, atque unde, similique reiciendis ut tempora voluptatum eos quis odit repudiandae aperiam! Saepe aliquam assumenda magni et beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. In excepturi dolore, harum perferendis tenetur minus perspiciatis tempora voluptate animi ipsam cumque sequi maxime sunt. Quos voluptatum aliquid magni ex rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consequuntur. Possimus alias provident enim, amet consectetur officia repellendus hic obcaecati cumque nisi quisquam voluptatum quaerat ad, impedit laboriosam maiores inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum corrupti, consequatur modi incidunt vero expedita, perferendis eaque soluta libero tempora totam similique nam ratione esse laboriosam laudantium eveniet illum veniam?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam consequuntur corrupti in, magni mollitia culpa nulla qui fugit quidem voluptatem saepe natus? Ipsum doloribus perferendis similique quisquam quae aliquid eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia alias aliquid nesciunt sequi odio consequatur eius, deserunt perspiciatis iusto necessitatibus, assumenda, quisquam aperiam quod minima delectus maiores. Ipsa, culpa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, aliquid! Vitae iste, atque unde, similique reiciendis ut tempora voluptatum eos quis odit repudiandae aperiam! Saepe aliquam assumenda magni et beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. In excepturi dolore, harum perferendis tenetur minus perspiciatis tempora voluptate animi ipsam cumque sequi maxime sunt. Quos voluptatum aliquid magni ex rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consequuntur. Possimus alias provident enim, amet consectetur officia repellendus hic obcaecati cumque nisi quisquam voluptatum quaerat ad, impedit laboriosam maiores inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum corrupti, consequatur modi incidunt vero expedita, perferendis eaque soluta libero tempora totam similique nam ratione esse laboriosam laudantium eveniet illum veniam?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam consequuntur corrupti in, magni mollitia culpa nulla qui fugit quidem voluptatem saepe natus? Ipsum doloribus perferendis similique quisquam quae aliquid eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia alias aliquid nesciunt sequi odio consequatur eius, deserunt perspiciatis iusto necessitatibus, assumenda, quisquam aperiam quod minima delectus maiores. Ipsa, culpa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, aliquid! Vitae iste, atque unde, similique reiciendis ut tempora voluptatum eos quis odit repudiandae aperiam! Saepe aliquam assumenda magni et beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. In excepturi dolore, harum perferendis tenetur minus perspiciatis tempora voluptate animi ipsam cumque sequi maxime sunt. Quos voluptatum aliquid magni ex rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consequuntur. Possimus alias provident enim, amet consectetur officia repellendus hic obcaecati cumque nisi quisquam voluptatum quaerat ad, impedit laboriosam maiores inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum corrupti, consequatur modi incidunt vero expedita, perferendis eaque soluta libero tempora totam similique nam ratione esse laboriosam laudantium eveniet illum veniam?</p>
+
+</body>
+
+</html>
