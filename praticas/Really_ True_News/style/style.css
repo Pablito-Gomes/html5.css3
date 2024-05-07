@@ -17,7 +17,7 @@
     /* Fontes */
     --fonte1: 'Arial';
     --fonte2: 'Noticia Text';
-    --fonte3: 'Anton', sans-serif;
+    --fonte3: 'Anton';
     /* Fontes */
 
 }
@@ -49,6 +49,7 @@ body{
     border-radius: 20px;
     box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
     transition: 0.5s;
+    padding: 10px;
 }
 
 .card:hover{
@@ -84,9 +85,9 @@ body{
     position: absolute;
     top: 250px;
     width: 100%;
-    padding: 0px 10px;
+    padding: 0px 30px;
     text-align: center;
-    height: 40px;
+    height: 50px;
     overflow: hidden;
 }
 
@@ -98,13 +99,20 @@ body{
 .card .saiba-mais{
     background:linear-gradient(90deg, var(--cor4), var(--cor5));
     padding: 10px;
-    color: var(--cor4);
+    color: white;
     text-decoration: none;
-    width: 100px;
-    margin: 10px 10px 10px 50px;
+    width: 300px;
+    margin: 50px 10px 10px 25px;
+    border-radius: 15px;
+    font-weight: bold;
 }
 
 #h1{
-  font-family: var(--fonte2);
-    
+    font-family: var(--fonte3);
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+#p{
+    font-family: var(--fonte2);
 }
