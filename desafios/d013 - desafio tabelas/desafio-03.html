@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Tabela de Notas </title>
+
+    <style>
+
+table{
+    width: 500px;
+    height: 120px;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.especial{
+    background-color: rgb(131, 130, 130);
+    color: white;
+    font-size: 1.2em;
+}
+
+th, td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.esquerda{
+    text-align: left;
+}
+
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    
+    <table>
+
+        <tr>
+
+            <th rowspan="2" class="especial"> Área </th>
+            <th rowspan="2" class="especial"> Disciplinas </th>
+            <th colspan="2" class="especial"> Notas </th>
+            <th rowspan="2" class="especial"> Média </th>
+
+        </tr>
+
+        <tr>
+
+            <th class="especial"> Nota 1 </th>
+            <th class="especial"> Nota 2 </th>
+
+        </tr>
+
+        <tr>
+
+            <th rowspan="4"> Exatas </th>
+            <td class="esquerda"> Matemática </td>
+            <td> 7,5 </td>
+            <td> 10 </td>
+            <td> 8,75 </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="esquerda"> Física </td>
+            <td> 7 </td>
+            <td> 8,5 </td>
+            <td> 7,75 </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="esquerda"> Química </td>
+            <td> 9 </td>
+            <td> 9,5 </td>
+            <td> 9,25 </td> 
+
+        </tr>
+
+        <tr>
+
+            <td class="esquerda"> Biologia </td>
+            <td> 10 </td>
+            <td> 9,5 </td>
+            <td> 9,75 </td>
+
+        </tr>
+
+        <tr> 
+            
+        <th colspan="4" class="especial" style="text-align: left;"> Média de Exatas </th>
+        <td class="especial"> 8.8 </td>
+     
+        </tr>
+
+        <tr>
+
+            <th rowspan="2"> Humanas </th>
+            <td style="text-align: left;"> História </td>
+            <td> 6 </td>
+            <td> 7 </td>
+            <td> 6,5 </td>
+
+        </tr>
+
+        <tr> 
+            
+        <td style="text-align: left;"> Geografia </td>
+        <td> 7 </td>
+        <td> 8 </td>
+        <td> 7,5 </td>
+        
+        
+        </tr>
+
+        <tr> 
+            
+            <th colspan="4" class="especial" style="text-align: left;"> Média de Humanas </th>
+            <td class="especial"> 7 </td>
+         
+            </tr>
+        
+
+    </table>
+
+    
+</body>
+
+</html>
