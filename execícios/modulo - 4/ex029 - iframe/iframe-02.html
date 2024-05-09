@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Navegação por Iframe </title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            background-color: coral;
+        }
+
+        iframe{
+            width: 97.5vw;
+            height: 400px;
+            border: 3px solid black;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        a{
+            margin-left: 20px;
+            margin-top: 10px;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: rgb(135, 17, 17);
+            border-radius: 10px;
+        }
+
+        a:hover{
+            background-color: rgb(148, 46, 46);
+        }
+
+        #pablito{
+            margin: auto;
+            object-position: center;
+            display: block;
+        }
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1> Vamos navegar utilizando iframe </h1>
+
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi quam earum omnis laborum, praesentium a! Iusto totam a iure sequi odio maiores quae similique magnam, inventore vel, nam, eligendi numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolore doloremque obcaecati dolores aliquam necessitatibus praesentium, vero labore, quaerat perferendis itaque maxime alias, quas deleniti nesciunt. Atque esse amet nesciunt? </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam soluta deleniti error beatae sapiente autem aut quibusdam architecto quo impedit maiores repellendus, a numquam vero dolore placeat molestiae ratione cumque.</p>
+
+    <iframe src="" name="cavanhas" srcdoc="<img src='
+    img/foto-perfil-pablito-.png' alt='pablito' id='pablito'> ">
+
+        <p> Seu navegador não é compatível </p>
+
+    </iframe>
+
+    <nav> <a href="paginas-extras/pag-01.html" target="cavanhas"> Página 01 </a> 
+        <a href="paginas-extras/pag-02.html" target="cavanhas"> Pagina 02 </a>
+        <a href="paginas-extras/pag-03.html" target="cavanhas"> Página 03 </a> </nav>
+
+        
+     
+</body>
+
+</html>
