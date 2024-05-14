@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Formulários </title>
+
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: coral;
+            text-align: justify;
+        }
+
+        .caixa-texto{
+
+            background-color: lightgray;
+            border-radius: 5px;
+            
+        }
+
+        form > p{
+            font-weight: bold;
+        }
+
+
+        #conteiner{
+            
+            background: rgb(0, 0, 0) url(f05f51d9d663c58e35171ba065d77097.jpg) no-repeat center center fixed;
+            background-size: cover;
+           
+            height: 500px;
+            width: 100%;
+
+            position: relative;
+
+            color: white;
+            padding: 10px;
+
+        }
+
+        header >h1{
+            text-align: center;
+        }
+
+        #conteudo{
+            
+            
+            height: 100%;
+            width: 100%;
+
+            position: absolute;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+        nav{
+            text-align: right;
+            display: inline;
+            position: absolute;
+
+            left: 85%;
+            
+        }
+
+        a{
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            
+        }
+
+        img{
+            width: 180px;
+            height: 70px;
+        }
+        
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    
+
+    <header id="conteiner">
+
+        <img src="cursoemvideo-logo-branca.png" alt="">
+
+        <nav>
+
+            <a href="#">Nada</a>
+            <a href="#">Olá</a>
+            <a href="#">Dbuenas?</a>
+
+        </nav>
+
+        
+
+            <div id="conteudo">
+
+                
+    
+                
+
+            </div>
+
+            <h1> Meu primeiro formulário </h1>
+    
+                    <p> Compartilhando um pouco do meu conhecimento sobre programação. </p>
+
+    </header>
+
+
+<main>
+    
+        <form action="cadastro.php" autocomplete="off">
+    
+            <p> <label for="inome"> Nome: </label> <input type="text" name="nome" id="inome" class="caixa-texto"> </p>
+    
+            <p> <label for="isobrenome">Sobre nome:</label> <input type="text" name="sobrenome" id="isobrenome" class="caixa-texto"> </p>
+    
+            <p> <input type="submit" value="Enviar" id="botao"> </p>
+    
+    
+    
+    
+        </form>
+    
+</main>
+
+
+</body>
+
+</html>
