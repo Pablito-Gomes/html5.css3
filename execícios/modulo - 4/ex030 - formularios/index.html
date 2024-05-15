@@ -9,6 +9,41 @@
 
     <title> Formulários </title>
 
+
+    <style>
+
+        legend{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-image: linear-gradient(to right, rgb(31, 31, 103), rgb(78, 78, 172));
+            font-weight: bold;
+            font-size: 1.5em;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        fieldset{
+            background-color: rgb(219, 218, 218);
+        
+            border-radius: 10px;
+        }
+
+        
+
+        p{
+            color: rgb(0, 0, 0);
+            font-weight: 
+            bold;
+        }
+
+        form{
+            margin: auto;
+            max-width: 400px;
+        }
+
+
+    </style>
     
 
 </head>
@@ -38,28 +73,34 @@
 
 
     
-        <form action="cadastro.php" autocomplete="on" method="post">
     
-            <p> <label for="inome"> Nome: </label> <input type="text" name="nome" id="inome" class="caixa-texto" minlength="10" maxlength="15" autocomplete="username" required placeholder="Primeiro nome"> </p>
-    
-            <p> <label for="isobrenome">Sobre nome:</label> <input type="text" name="sobrenome" id="isobrenome" class="caixa-texto" minlength="8" maxlength="15" autocomplete="new-password" required placeholder="Sobre nome"> </p>
+            <form action="cadastro.php" autocomplete="on" method="post">
+    <fieldset>
 
-            <p> <label for="inumero"> Média: </label>  <input type="number" name="numero" id="inumero" step="0.1" required min="0" max="10" placeholder="0-10">  </p>
+        <legend> Dados Pessoais </legend>
+        
+                    <p> <label for="inome"> Nome: </label> <input type="text" name="nome" id="inome" class="caixa-texto" minlength="10" maxlength="15" autocomplete="username" required placeholder="Primeiro nome"> </p>
+        
+                    <p> <label for="isobrenome">Sobre nome:</label> <input type="text" name="sobrenome" id="isobrenome" class="caixa-texto" minlength="8" maxlength="15" autocomplete="new-password" required placeholder="Sobre nome"> </p>
+        
+                    <p> <label for="inumero"> Média: </label>  <input type="number" name="numero" id="inumero" step="0.1" required min="0" max="10" placeholder="0-10">  </p>
+        
+                    <p> <label for="idata"> Data de nascimento </label> <input type="date" name="data" id="idata" required placeholder="dia/mes/ano"> </p>
+        
+                    <p> <input type="submit" value="Enviar" id="botao">  <input type="hidden" value="limpar">  <input type="reset" value="Limpar"> </p>
+        
+        
+        
+        
+        
+        
+        
+        
+    </fieldset>
+    
+            </form>
+    
 
-            <p> <label for="idata"> Data de nascimento </label> <input type="date" name="data" id="idata" required placeholder="dia/mes/ano"> </p>
-    
-            <p> <input type="submit" value="Enviar" id="botao">  <input type="hidden" value="limpar">  <input type="reset" value="Limpar"> </p>
-
-
-
-           
-            
-    
-    
-    
-    
-        </form>
-    
 
 
 
