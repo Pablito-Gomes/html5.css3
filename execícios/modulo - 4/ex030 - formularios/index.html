@@ -9,89 +9,7 @@
 
     <title> Formulários </title>
 
-    <style>
-
-        *{
-            margin: 0px;
-            padding: 0px;
-        }
-
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: coral;
-            text-align: justify;
-        }
-
-        .caixa-texto{
-
-            background-color: lightgray;
-            border-radius: 5px;
-            
-        }
-
-        form > p{
-            font-weight: bold;
-        }
-
-
-        #conteiner{
-            
-            background: rgb(0, 0, 0) url(f05f51d9d663c58e35171ba065d77097.jpg) no-repeat center center fixed;
-            background-size: cover;
-           
-            height: 500px;
-            width: 100%;
-
-            position: relative;
-
-            color: white;
-            padding: 10px;
-
-        }
-
-        header >h1{
-            text-align: center;
-        }
-
-        #conteudo{
-            
-            
-            height: 100%;
-            width: 100%;
-
-            position: absolute;
-
-            top: 50%;
-            left: 50%;
-
-            transform: translate(-50%, -50%);
-        }
-
-        nav{
-            text-align: right;
-            display: inline;
-            position: absolute;
-
-            left: 85%;
-            
-        }
-
-        a{
-            padding: 10px;
-            text-decoration: none;
-            color: white;
-            
-        }
-
-        img{
-            width: 180px;
-            height: 70px;
-        }
-        
-
-
-
-    </style>
+    
 
 </head>
 
@@ -99,44 +17,42 @@
 
     
 
-    <header id="conteiner">
-
-        <img src="cursoemvideo-logo-branca.png" alt="">
-
-        <nav>
-
-            <a href="#">Nada</a>
-            <a href="#">Olá</a>
-            <a href="#">Dbuenas?</a>
-
-        </nav>
+    
 
         
 
-            <div id="conteudo">
+            
 
                 
     
                 
 
-            </div>
+            
 
             <h1> Meu primeiro formulário </h1>
     
                     <p> Compartilhando um pouco do meu conhecimento sobre programação. </p>
 
-    </header>
+    
 
 
-<main>
+
     
         <form action="cadastro.php" autocomplete="on" method="post">
     
-            <p> <label for="inome"> Nome: </label> <input type="text" name="nome" id="inome" class="caixa-texto" minlength="10" maxlength="15" autocomplete="username"> </p>
+            <p> <label for="inome"> Nome: </label> <input type="text" name="nome" id="inome" class="caixa-texto" minlength="10" maxlength="15" autocomplete="username" required placeholder="Primeiro nome"> </p>
     
-            <p> <label for="isobrenome">Sobre nome:</label> <input type="text" name="sobrenome" id="isobrenome" class="caixa-texto" minlength="8" maxlength="15" autocomplete="new-password"> </p>
+            <p> <label for="isobrenome">Sobre nome:</label> <input type="text" name="sobrenome" id="isobrenome" class="caixa-texto" minlength="8" maxlength="15" autocomplete="new-password" required placeholder="Sobre nome"> </p>
+
+            <p> <label for="inumero"> Média: </label>  <input type="number" name="numero" id="inumero" step="0.1" required min="0" max="10" placeholder="0-10">  </p>
+
+            <p> <label for="idata"> Data de nascimento </label> <input type="date" name="data" id="idata" required placeholder="dia/mes/ano"> </p>
     
-            <p> <input type="submit" value="Enviar" id="botao">  <input type="hidden" value="limpar"></p>
+            <p> <input type="submit" value="Enviar" id="botao">  <input type="hidden" value="limpar">  <input type="reset" value="Limpar"> </p>
+
+
+
+           
             
     
     
@@ -144,7 +60,7 @@
     
         </form>
     
-</main>
+
 
 
 </body>
