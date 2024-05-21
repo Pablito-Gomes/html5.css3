@@ -45,7 +45,7 @@
         <input type="checkbox" name="box" id="ibox"> 
         <label for="ibox"> Box </label><br>
 
-        <input type="checkbox" name="mma" id="imma" checked> 
+        <input type="checkbox" name="mma" id="imma" > 
         <label for="imma"> MMA </label><br>
 
     </fieldset>
@@ -78,7 +78,48 @@
     
     </fieldset>
 
+    <fieldset>
+
+        <legend> Seleção de estado </legend>
+
+        <label for="iestado"> Estado: </label>
+        <select name="Estado" id="iestado">
+
+            <option value="SP"> São Paulo </option>
+            <option value="MTS"> Mato Grosso do Sul </option>
+            <option value="RJ"> Rio de Janeiro </option>
+
+        </select>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend> Seleção de profissão </legend>
+
+        <label for="iprof"> Profissão: </label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+        <option > Administrador </option>
+        <option > Pedreiro </option>
+        <option > Eletricista </option>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend> Mensagem </legend>
+
+        <label for="imsg"> Sua mensagem: </label> <br>
+
+        <textarea name="msg" id="imsg" cols="50" rows="20"></textarea>
+
+
+
+    </fieldset>
+
     <input type="submit" value="Enviar">
+    <input type="reset" value="Apagar">
 
 </form>
 
