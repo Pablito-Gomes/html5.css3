@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Media Querys */
+
+
+/* Typical Device Breakpoints 
+
+- Telas muito pequenas (600px ou menos)
+
+- Telas pequenas (celulares largos ou tablets 600px até 768px)
+
+- Telas medias (tablets 768px até 992px)
+
+- Telas largas (Laptops/desktops 992px 1200px)
+
+- Telas muito largas (tv's acima de 1200px)
+
+*/
+
+
+@media screen and (min-width: 768px) and (max-width: 900px){
+
+    #burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+}
