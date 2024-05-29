@@ -2,7 +2,77 @@
 
 /* Todas as demais mídias */
 
-@media screen and (max-width: ){
+/* Typical Device Breakpoints 
+
+- Telas muito pequenas (600px ou menos)
+
+- Telas pequenas (celulares largos ou tablets 600px até 768px)
+
+- Telas medias (tablets 768px até 992px)
+
+- Telas largas (Laptops/desktops 992px 1200px)
+
+- Telas muito largas (tv's acima de 1200px)
+
+*/
+
+
+
+
+@media print{ /* IMPRESSORA */
+    body{
+        background: url(../img/back-print.jpg);
+    }
+
+    #impressora{
+        display: block;
+    }
+
+    #smartphone{
+        display: none;
+    }
     
-    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){ /* TABLET */
+  body{
+    background: url(../img/back-tablet.jpg);
+
+  }
+
+  #smartphone{
+    display: none;
+  }
+
+  #tablet{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){ /* DESKTOP */
+    body{
+        background: url(../img/back-pc.jpg);
+    }
+
+    #pc{
+        display: block;
+    }
+
+    #smartphone{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px){ /* TELAS GRANDES */
+    body{
+        background: url(../img/back-tv.jpg);
+    }
+
+    #tv{
+        display: block;
+    }
+
+    #smartphone{
+        display: none;
+    }
 }
