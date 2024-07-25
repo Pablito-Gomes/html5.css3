@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Flex-box </title>
+
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-color: aquamarine;
+        }
+
+        main{
+            background-color: coral;
+            height: 100vh;
+            width: 100vw;
+
+            flex-direction: row nowrap;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section{
+            background-color: chocolate;
+            height: 20vh;
+            width: 20vw;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 7px;
+            cursor: pointer;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.267);
+
+        }
+
+        section:hover{
+            scale: 1.1;
+            transition: .4s;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            text-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.236);
+        }
+    
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+
+        <a href="pagina01.html">
+
+            <section>
+
+                    <h1> Clique aqui </h1>
+
+            </section>
+
+        </a>
+
+
+    </main>
+    
+</body>
+
+</html>
